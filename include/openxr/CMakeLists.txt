@@ -23,6 +23,7 @@ configure_file(openxr_platform_defines.h ${CMAKE_CURRENT_BINARY_DIR}/openxr_plat
 
 set(HEADERS
     openxr.h
+    openxr.hpp
     openxr_platform.h
     openxr_reflection.h)
 set(HAVE_PREGENERATED TRUE)
